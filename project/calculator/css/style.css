@@ -1,0 +1,159 @@
+*{
+  font-size: 40px
+}
+
+body{
+  background: #222;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+#kalkulator{
+  background: #555;
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 4px solid #333;
+  padding: 0px;
+  position: relative;
+}
+
+#ekran{
+  color: #000;
+  width: 234px;
+  height: 40px;
+  background: linear-gradient(green, yellow);
+  margin: 24px auto auto auto;
+  border-radius: 5px;
+  border: 3px solid #333;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+[type=button]{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border: 2px solid #888;
+  position: absolute;
+  background: #333;
+  outline: none;
+}
+[type=button]:hover{
+  border-radius: 5px;
+  border: 4px solid #333;
+  position: absolute;
+  background: #888;
+  outline: none;
+}
+
+[type=button]:active{
+  border-radius: 5px;
+  border: 5px solid #fff;
+  position: absolute;
+  background: #888;
+  outline: none;
+}
+
+.zero, .jeden, .dwa, .trzy, .cztery, .piec, .szesc, .siedem, .osiem, .dziewiec{
+    background: #bbb;
+    margin: 0;
+    border: 2px solid #333;
+}
+
+.dziewiec{
+  left: 160px;
+  top: 100px;
+}
+.osiem{
+  left: 90px;
+  top: 100px;
+}
+
+.siedem{
+  left: 20px;
+  top: 100px;
+}
+
+.dzielenie{
+  left: 230px;
+  top: 100px;
+}
+
+.cztery{
+  left: 20px;
+  top: 170px;
+}
+
+.piec{
+  left: 90px;
+  top: 170px;
+}
+
+.szesc{
+  left: 160px;
+  top: 170px;
+}
+
+.mnozenie{
+  left: 230px;
+  top: 170px;
+}
+
+.jeden{
+  left: 20px;
+  top: 240px;
+}
+
+.dwa{
+  left: 90px;
+  top: 240px;
+}
+
+.trzy{
+  left: 160px;
+  top: 240px;
+}
+
+.odejmowanie{
+  left: 230px;
+  top: 240px;
+}
+
+.zero{
+  top: 310px;
+  left: 20px;
+}
+
+.kropka{
+  top: 310px;
+  left: 90px;
+}
+
+.kasuj{
+  top: 310px;
+  left: 160px;
+}
+
+.dodawanie{
+  top: 310px;
+  left: 230px;
+}
+
+.rownasie{
+  top: 380px;
+  margin: 0px 20px;
+  width: 260px;
+  background: red;
+}

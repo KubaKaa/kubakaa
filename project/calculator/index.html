@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="container" >
+      <div id="kalkulator" >
+        <input type="text" class="ekran" id="ekran" disabled maxlength="12"/>
+        <form>
+            <input type=button value='0' class="zero" onclick="dodajwartosc('0')">
+            <input type=button value='1' class="jeden" onclick="dodajwartosc('1')">
+            <input type=button value='2' class="dwa" onclick="dodajwartosc('2')">
+            <input type=button value='3' class="trzy" onclick="dodajwartosc('3')">
+            <input type=button value='4' class="cztery" onclick="dodajwartosc('4')">
+            <input type=button value='5' class="piec" onclick="dodajwartosc('5')">
+            <input type=button value='6' class="szesc" onclick="dodajwartosc('6')">
+            <input type=button value='7' class="siedem" onclick="dodajwartosc('7')">
+            <input type=button value='8' class="osiem" onclick="dodajwartosc('8')">
+            <input type=button value='9' class="dziewiec" onclick="dodajwartosc('9')">
+            <input type=button value='/' class="dzielenie" onclick="dodajwartosc('/')">
+            <input type=button value='*' class="mnozenie" onclick="dodajwartosc('*')">
+            <input type=button value='-' class="odejmowanie" onclick="dodajwartosc('-')">
+            <input type=button value='+' class="dodawanie" onclick="dodajwartosc('+')">
+            <input type=button value='=' class="rownasie" onclick="rownasie()">
+            <input type=button value='c' class="kasuj" onclick="dodajwartosc('c')">
+            <input type=button value='.' class="kropka" onclick="dodajwartosc('.')">
+            </form>
+      </div>
+    </div>
+    <script src="javascript.js" charset="utf-8"></script>
+  </body>
+</html>
